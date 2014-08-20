@@ -20,12 +20,14 @@ require() text files
 
 ## API
 
-    var requireText = require('require-text');
+```javascript
+var requireText = require('require-text');
 
-    var index = requireText('./index.html', require);
-    // Prints contents of ./index.html file, which resides
-    // in the same directory as this source code file.
-    console.log(index);
+var index = requireText('./index.html', require);
+// Prints contents of ./index.html file, which resides
+// in the same directory as this source code file.
+console.log(index);
+```
 
 ## Development
 
