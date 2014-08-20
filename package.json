@@ -1,6 +1,6 @@
 {
   "name": "require-text",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "require() text files",
   "main": "index.js",
   "scripts": {
